@@ -7,7 +7,7 @@ export default function App() {
   
   return (
     <main>
-      {(!isLoading && data) && <PokemonCards pokemonData={data.results}/>}
+      {(!isLoading && data) && <PokemonCards pokemonList={data.results}/>}
     </main>
   );
 }
