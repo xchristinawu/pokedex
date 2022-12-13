@@ -6,6 +6,7 @@ export default function PokemonCards({pokemonList}) {
     const pokemonElements = pokemonList.map(pokemon => (
         <Pokemon
             key={nanoid()}
+            id={nanoid()}
             url={pokemon.url}
         />
     ))  
